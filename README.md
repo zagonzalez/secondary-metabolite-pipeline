@@ -10,7 +10,7 @@ The three tools generate three output folders for each sample (one folder per to
 
 The pipeline is run on AWS via a docker container so that a large number of samples can be run in parallel. This also allows for the usage of spot instance to increase pipeline efficiency. 
 
-## Running thee pipeline
+## Running the pipeline
 The pipeline takes in one input file - this input file contains the paths to the contig files
 The command to run the script is the following:
 ./run_BGC_bacteria.sh -i input_filename
