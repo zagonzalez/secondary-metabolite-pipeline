@@ -3,9 +3,6 @@
 ## Name
 Zachary Gonzalez
 
-## Date
-2/15/23
-
 ## Description
 The following pipeline takes in bacterial genome contig files. The contig files are run through a set of Biosynthetic Gene Cluster mining tools (antiSMASH, DeepBGC, and BAGEL) that mine the diveristy of the clusters within each sample. 
 
