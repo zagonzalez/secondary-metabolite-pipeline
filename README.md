@@ -9,7 +9,7 @@ Zachary Gonzalez
 ## Description
 The following pipeline takes in bacterial genome contig files. The contig files are run through a set of Biosynthetic Gene Cluster mining tools (antiSMASH, DeepBGC, and BAGEL) that mine the diveristy of the clusters within each sample. A python script then outputs relevant information regarding BGC product classes for each sample in a clear and readable manner. 
 
-The pipeline is set up on an AWS environment via a docker container. This means that a large number of samples to be run in parallel and also allows for the usage of spot instance to increase pipeline efficiency. 
+The pipeline is set up on AWS via a docker container so that a large number of samples can be run in parallel. This also allows for the usage of spot instance to increase pipeline efficiency. 
 
 ## Running thee pipeline
 The pipeline takes in one input file - this input file contains the paths to the contig files
