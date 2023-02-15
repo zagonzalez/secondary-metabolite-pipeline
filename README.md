@@ -1,4 +1,4 @@
-# secondary-metabolite_pipeline
+# secondary-metabolite-pipeline
 
 ## Name
 Zachary Gonzalez
